@@ -12,10 +12,8 @@ from sympy.parsing.sympy_parser import parse_expr
 #import numpy as np
 
 x, y = symbols('x y', real=True)
-f_1 = input('input first function: ')
-f_2 = input("input second function: ")
-f1 = parse_expr(f_1)
-f2 = parse_expr(f_2)
+f1 = x**2+x*y+2
+f2 = x**y+2*y+5x
 
 print(f1)
 print(type(f1))
